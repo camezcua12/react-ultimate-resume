@@ -1,18 +1,18 @@
 {
     "basics": {
-        "name": "John Doe",
-        "label": "Programmer",
-        "picture": "",
-        "email": "john@gmail.com",
-        "phone": "(912) 555-4321",
-        "website": "http://johndoe.com",
-        "summary": "A summary of John Doe...",
+        "name": "Carlos Amezcua",
+        "label": "Full-stack web developer",
+        "picture": "./picture.jpg",
+        "email": "carlosamezcuapuertas@gmail.com",
+        "phone": "+34722111354",
+        "website": "https://carlosamezcua.dev",
+        "summary": "Some things to know about Carlos",
         "location": {
-            "address": "2712 Broadway St",
-            "postalCode": "CA 94115",
-            "city": "San Francisco",
-            "countryCode": "US",
-            "region": "California"
+            "address": "Calle Periodista Barrios Talavera, 2",
+            "postalCode": "18014",
+            "city": "Granada",
+            "countryCode": "ES",
+            "region": "España"
         },
         "profiles": [
             {
@@ -24,31 +24,23 @@
     },
     "work": [
         {
-            "name": "Company 2 ",
-            "position": "Worker",
-            "website": "http://company.com",
-            "startDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+            "name": "Howamigoing",
+            "position": "Web developer",
+            "website": "https://howamigoing.com",
+            "startDate": "2018-10-01",
+            "summary": "Maintaining a legacy platform, and developing a brand new app using NodeJS.",
+            "location": "Granada, Spain / Remotely",
+            "highlights": ["Joined the company at very early stages of the start-up phase."]
         },
         {
-            "name": "What a nice office",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
-        },
-        {
-            "name": "What a nice experience",
-            "position": "Lead dev",
-            "website": "http://company.com",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+            "name": "Euroinnova Formación",
+            "position": "Web developer",
+            "website": false,
+            "startDate": "2016-03-01",
+            "endDate": "2018-10-01",
+            "summary": "Working in a collaborative environment with an ecosystem of multiple PHP based apps.",
+            "location": "Granada, Spain",
+            "highlights": ["Hired right after I graduated and did a practice period with them."]
         }
     ],
     "volunteer": [
@@ -63,22 +55,22 @@
     ],
     "education": [
         {
-            "institution": "ISEN",
-            "area": "Software Development",
-            "studyType": "Engineer Degree",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "institution": "Esc. Arte Granada",
+            "area": "Web Development",
+            "studyType": "Higher Professional Formation (F.P.)",
+            "startDate": "2014-10-01",
+            "endDate": "2016-06-01",
+            "gpa": false,
+            "courses": false
         },
         {
-            "institution": "Université d'artois",
-            "area": "",
-            "studyType": "",
-            "startDate": "2011-01-01",
-            "endDate": "",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "institution": "IES Padre Suárez",
+            "area": "System Management",
+            "studyType": "Medium Professional Formation (F.P.)",
+            "startDate": "2011-10-01",
+            "endDate": "2013-06-01",
+            "gpa": false,
+            "courses": false
         }
     ],
     "awards": [
@@ -100,62 +92,80 @@
     ],
     "skills": [
         {
-            "name": "Reactaaa",
-            "level": "Master",
-            "value": 100,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Angular",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
             "name": "NodeJS",
             "level": "Master",
-            "value": 40,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "value": 33.3333,
+            "keywords": ["HTML", "CSS", "Javascript", "TypeScript"]
+        },
+        {
+            "name": "React",
+            "level": "Master",
+            "value": 33.3333,
+            "keywords": ["HTML", "CSS", "Javascript", "TypeScript"]
+        },
+        {
+            "name": "PHP",
+            "level": "Master",
+            "value": 33.3333,
+            "keywords": ["HTML", "CSS", "Javascript", "Symfony"]
+        },
+        {
+            "name": "PostgreSQL",
+            "level": "Master",
+            "value": 80,
+            "keywords": ["SQL"]
+        },
+        {
+            "name": "GraphQL",
+            "level": "Master",
+            "value": 80,
+            "keywords": ["API"]
+        },
+        {
+            "name": "Laravel",
+            "level": "Master",
+            "value": 50,
+            "keywords": ["PHP"]
         },
         {
             "name": "Firebase",
             "level": "Master",
-            "value": 60,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "value": 75,
+            "keywords": ["NoSQL"]
         },
         {
-            "name": "Gmail",
-            "level": "Master",
-            "value": 20,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "K8S",
+            "name": "TypeScript",
             "level": "Master",
             "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "keywords": ["JavaScript"]
+        },
+        {
+            "name": "Google Cloud",
+            "level": "Master",
+            "value": 50,
+            "keywords": ["Cloud"]
         }
     ],
-    "languages": [{ "language": "English", "value": 100, "fluency": "Native speaker" }],
+    "languages": [
+        { "language": "English", "value": 80, "fluency": "B2/C1 equivalent" },
+        { "language": "Spanish", "value": 100, "fluency": "Native speaker" }
+    ],
     "interests": [
         {
-            "name": "Burritos",
-            "gifUrl": "https://media.giphy.com/media/d8WjGORtSEWqc/giphy.gif"
+            "name": "Dogs!",
+            "gifUrl": "https://media.giphy.com/media/OsVHDytNJNQ7m/giphy.gif"
         },
         {
-            "name": "Dogs",
-            "gifUrl": "https://media.giphy.com/media/3o85xsGXVuYh8lM3EQ/giphy.gif"
+            "name": "Video-games",
+            "gifUrl": "https://media.giphy.com/media/3ohhwsQ8hLTIoPcF0c/giphy.gif"
         },
         {
-            "name": "Tendresse",
-            "gifUrl": "https://media.giphy.com/media/EehnUUCH2JcwU/giphy.gif"
+            "name": "Food",
+            "gifUrl": "https://media.giphy.com/media/GnCc88zZhSVUc/giphy.gif"
         },
         {
-            "name": "Something",
-            "gifUrl": "https://media.giphy.com/media/xTiTnIuKP1BLsMTerS/giphy.gif"
-        },
-        {
-            "name": "J'aime faire de la course à pied et des randonnées en famille le weekend."
+            "name": "Did I mention dogs?",
+            "gifUrl": "https://media.giphy.com/media/13oT4vy2B0Hn4A/giphy.gif"
         }
     ],
     "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
@@ -168,56 +178,90 @@
     ],
     "specific": {
         "basics": {
-            "visaSponsorship": true,
-            "personalDescription": "This is a longer description of me, of my backstory, my backyard, my backfire, my backend, my frontend and my friends."
+            "visaSponsorship": false,
+            "personalDescription": "I'm a 25 years old Full Stack Web developer, established in Granada, but that recently discovered the amazing world of start-ups, beginning with an UK one :)"
         },
         "dreamJob": {
-            "locations": [
-                { "name": "Valenciennes, France" },
-                { "name": "Lille, France" },
-                { "name": "Paris,France" },
-                { "name": "Paris,France" },
-                { "name": "Lille, France" },
-                { "name": "Valenciennes, France" }
-            ],
-            "remoteFrequency": "regularly"
+            "locations": [{ "name": "Granada" }],
+            "remoteFrequency": "fullTime"
         },
         "currentJob": {
-            "issues": { "boring_management": true, "boring_team": true }
+            "issues": false
         },
         "education": { "studiesLevel": 5 },
         "work": {
             "contractTypes": ["permanent"],
-            "codingYears": 7,
-            "codingReason": "J'ai commencé à coder sur Amstrad dans ma cave et je n'ai jamais arrêté depuis",
+            "codingYears": 8,
+            "codingReason": "Started doing small scripts and Visual Basic applications, and... what can I say? Here we are!",
             "searchState": "activelySearching",
-            "experienceYears": 9
+            "experienceYears": 4
         },
         "sound": {
-            "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge"
+            "embedUrl": "https://open.spotify.com/embed/playlist/51IARp0N8dtlpUnX8yCI6A"
         },
         "interestedBy": "Angular, la blochain et les chatons."
     },
     "resumeCustomization": {
         "imageHeader": {
-            "url": "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp",
-            "alt": "Default Banner"
+            "url": "./banner.jpg",
+            "alt": "Banner"
         },
         "cardsOrder": [
             { "type": "basics", "variant": 4 },
-            { "type": "projects", "variant": 4 },
             { "type": "skills", "variant": 0 },
-            { "type": "dreamjob", "variant": 4 },
             { "type": "experiences", "variant": 4 },
             { "type": "studies", "variant": 4 },
-            { "type": "gifs", "variant": 0 },
-            { "type": "interestedBy", "variant": 3 },
+            { "type": "dreamjob", "variant": 4 },
             { "type": "language", "variant": 4 },
+            { "type": "gifs", "variant": 0 },
             { "type": "soundtrack", "variant": 4 }
         ],
         "fields": {
             "work": {
                 "customDateFormat": "YYYY"
+            }
+        },
+        "theme": {
+            "palette": {
+                "primary": {
+                    "50": "#ede7ec",
+                    "100": "#dbced8",
+                    "200": "#b69db1",
+                    "300": "#926c8b",
+                    "400": "#6d3b64",
+                    "500": "#490a3d",
+                    "600": "#3a0831",
+                    "700": "#2c0625",
+                    "800": "#1d0418",
+                    "900": "#0f020c",
+                    "contrastDefaultColor": "light"
+                },
+                "secondary": {
+                    "50": "#f8e8ee",
+                    "100": "#f2d0dc",
+                    "200": "#e5a1b9",
+                    "300": "#d77396",
+                    "400": "#ca4473",
+                    "500": "#bd1550",
+                    "600": "#971140",
+                    "700": "#710d30",
+                    "800": "#4c0820",
+                    "900": "#260410",
+                    "contrastDefaultColor": "light"
+                },
+                "tertiary": {
+                    "50": "#fdf2e6",
+                    "100": "#fbe5cc",
+                    "200": "#f6cc9a",
+                    "300": "#f2b267",
+                    "400": "#ed9935",
+                    "500": "#e97f02",
+                    "600": "#ba6602",
+                    "700": "#8c4c01",
+                    "800": "#5d3301",
+                    "900": "#2f1900",
+                    "contrastDefaultColor": "light"
+                }
             }
         }
     }
