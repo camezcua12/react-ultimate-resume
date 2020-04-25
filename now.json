@@ -2,5 +2,10 @@
     "version": 2,
     "env": {
         "REACT_APP_MODE": "readOnly"
+    },
+    "build": {
+        "env": {
+            "REACT_APP_MODE": "readOnly"
+        }
     }
 }
